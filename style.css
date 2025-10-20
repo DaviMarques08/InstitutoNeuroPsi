@@ -154,6 +154,63 @@ strong {
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
 }
 
+.contatos {
+    padding: 10rem 5rem;
+}
+
+.contatos-titulo {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.formulario-contato {
+    max-width: 730px;
+    margin: 0 auto;
+    background-color: rgb(20, 19, 19);
+    backdrop-filter: blur(5px);
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: 16px;
+}
+
+.grupo-form {
+    margin-bottom: 1.5rem;
+}
+
+.text-form {
+    width: 100%;
+    padding: 1rem;
+    background: rgb(255, 251, 251);
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    outline: none;
+    font-family: "oswald", sans-serif;
+}
+
+.text-form:focus {
+    border-color: rgb(0, 0, 0);
+    box-shadow: 0 2px rgba(79, 70, 220, 0.3s);
+}
+
+.botao-form {
+    color: black;
+    background-color: linear-gradient(45deg, rgb(61, 57, 57), rgb(0, 0, 0));
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+.botao-form:hover {
+    background-color: rgb(169, 175, 175);
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
 @media (max-width: 768px) {
     .topo {
         flex-direction: column;
