@@ -255,7 +255,27 @@ strong {
     }
 }
 
+@media (max-width: 600px) {
 
+    .contatos {
+        padding: 5vh 5vw;
+    }
+
+    .contatos-titulo {
+        font-size: 1.5rem;
+    }
+
+    .formulario-contato {
+        backdrop-filter: none;
+        padding: 1.5rem;
+        width: 90%;
+    }
+
+    .botao-form:hover {
+        transform: none;
+        box-shadow: none;
+    }
+}
 
 footer {
     background-color: #000000;
